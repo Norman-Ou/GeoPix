@@ -1,0 +1,2 @@
+from .modeling_mask_predictor import MaskPredictorModel
+from .configuration_mask_predictor import MaskPredictorConfig

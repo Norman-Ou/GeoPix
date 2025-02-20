@@ -1,0 +1,5 @@
+__pycache__/
+.vscode
+.gradio
+*.jpg
+pretrained_models
