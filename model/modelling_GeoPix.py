@@ -1,6 +1,5 @@
 from typing import Union
 import os
-import json
 
 import torch
 import torch.nn as nn
@@ -141,7 +140,7 @@ class GeoPixForConditinalGeneration(GeoPixPretrainedModel):
 
         vlm_hidden_state = [hs[-1] for hs in hidden_states]
         vlm_hidden_state[0] = vlm_hidden_state[0][:, -1, :].unsqueeze(1)
-        vlm_hidden_state = torch.cat(vlm_hidden_state, dim=1)
+        vlm_hidden_state = torch.cat(vlm_hidden_state, dim=1) # [num_target, L, dim]
         
         vlm_hidden_state = self.text_hidden_fcs(vlm_hidden_state)
 

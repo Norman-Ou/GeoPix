@@ -12,8 +12,8 @@ from dataset.inference_input import InferenceInputData
 from engine import GeoPixInferenceEngine
 
 geopix_task = GeoPixInferenceEngine(
-    pretrained_model_path="pretrained_models/2stagen_rsvgdrsicap",
-    pretrained_processor_path="pretrained_models/valid_processor_geopix",
+    pretrained_model_path="pretrained_models/GeoPix-ft-sior_rsicap",
+    pretrained_processor_path="pretrained_models/GeoPix-ft-sior_rsicap",
 )
 
 mask_colors = np.array([
@@ -39,11 +39,25 @@ title = "GeoPix: Multi-Modal Large Language Model for Pixel-level Image Understa
 description = """
 <font size=4>
 Hi there, and welcome to GeoPix! 👋🏻 <br>
+
 This is the online demo of GeoPix — a cool tool that helps with tasks in the remote sensing domain: <br>
 &ensp;•&ensp; <strong>Referring Segmentation</strong>: From single-object to multi-object segmentation — GeoPix’s got it covered! <br>
 &ensp;•&ensp; <strong>Visual Grounding</strong>: Get bounding boxes for specific objects. <br>
 &ensp;•&ensp; <strong>Visual Question Answering</strong>: Ask questions about images, and GeoPix will provide answers. <br>
 &ensp;•&ensp; <strong>Image Captioning</strong>: Let GeoPix generate captions for your images. <br>
+
+<strong>Click on the example 📚 and directly submit to get started quickly! 💪🏻</strong> 
+
+<strong>How to use GeoPix:</strong><br>
+&ensp;1.&ensp; To <u>get segmentation</u> results, select “Referring Segmentation” and input something like: “Can you segment xxx and xxx?”<br>
+&ensp;2.&ensp; For <u>bounding boxes</u> of objects, select “Visual Grounding” and try a question like: “Where is xxx?”<br>
+&ensp;3.&ensp; For language-based tasks like <u>visual question answering or image captioning</u>, just type something like you’d ask in a multi-modal LLM (e.g., LLaVA). 
+
+<strong>A few notes:</strong><br>
+&ensp;•&ensp; Different prompts can lead to different results, so feel free to experiment! ✨<br>
+&ensp;•&ensp; Try to standardize your input and make sure your punctuation is spot on to avoid confusion. 🧐<br>
+
+<strong>Enjoy exploring GeoPix! 🎉</strong>
 </font>
 """
 
@@ -138,12 +152,11 @@ def inference(task_type, input_str, input_image):
     return output_texts, output_img
 
 
-if __name__ == "__main__":
-    from tqdm import tqdm
-    for ex in tqdm(examples):
-        output_texts, output_img = inference(ex[0],ex[1],ex[2])
-        print(output_texts)
-
+# if __name__ == "__main__":
+#     from tqdm import tqdm
+#     for ex in tqdm(examples):
+#         output_texts, output_img = inference(ex[0],ex[1],ex[2])
+#         print(output_texts)
 
 demo = gr.Interface(
     inference,
