@@ -14,9 +14,7 @@
 
 GeoPix is a new state-of-the-art pixel-level multi-modal large language model in remote sensing domain, supporting referring image segmentation and other tasks.
 
-<img src="./assets/multitask.png" alt="ris_result" style="zoom:25%;" />
-
-![ris_result](./assets/ris_result.png)
+<img src="./assets/multitask.png"/>
 
 # Release
 
