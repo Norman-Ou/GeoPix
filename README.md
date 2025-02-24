@@ -22,7 +22,7 @@ GeoPix is a new state-of-the-art pixel-level multi-modal large language model in
 
 
 - [2025.02.20] We release the pre-trained checkpoints, inference code and gradio demo!
-- [2025.01.12] We release the [Paper](https://arxiv.org/pdf/2501.06828).
+- [2025.01.12] We release the [paper](https://arxiv.org/pdf/2501.06828).
 
 **GeoPix: Multi-Modal Large Language Model for Pixel-level Image Understanding in Remote Sensing** [[Arxiv](https://arxiv.org/pdf/2501.06828)]
 
