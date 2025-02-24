@@ -16,7 +16,7 @@ GeoPix is a new state-of-the-art pixel-level multi-modal large language model in
 
 <img src="./assets/multitask.jpg"/>
 
-# Release
+# Releas🔥
 
 - [ ] Release Training Data
 
@@ -30,7 +30,7 @@ GeoPix is a new state-of-the-art pixel-level multi-modal large language model in
 
 In this work, we propose GeoPix, a RS MLLM that extends image understanding capabilities to the pixel level. This is achieved by equipping the MLLM with a mask predictor, which transforms visual features from the vision encoder into masks conditioned on the LLM’s segmentation token embeddings. For more details, please refer to the [paper](https://arxiv.org/pdf/2501.06828).
 
-# Demo
+# Demo🚀
 
 ## 1. Installation
 
@@ -68,7 +68,7 @@ Once you have prepared all models, the folder tree should be like:
   └── README.md
 ```
 
-## 3. Start a local gradio demo🚀
+## 3. Start a local gradio demo
 
 Run the following command:
 
@@ -76,7 +76,14 @@ Run the following command:
 python app.py
 ```
 
-# Citation
+# Inference🔍
+Run the following command:
+
+```sh
+python inference.py
+```
+
+# Citation📑
 
 ```
 @misc{ou2025geopixmultimodallargelanguage,
