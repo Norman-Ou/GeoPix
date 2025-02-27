@@ -5,7 +5,7 @@
 
 <sup>1</sup>Beijing University of Posts and Telecommunications · <sup>2</sup>Peking University · <sup>3</sup>Peking University Ordos Research Institute of Energy <sup>*</sup>corresponding authors
 
-<a href='https://arxiv.org/abs/2401.07519'><img src='https://img.shields.io/badge/arXiv-2501.06828-b31b1b.svg'></a>
+<a href='https://arxiv.org/abs/2501.06828'><img src='https://img.shields.io/badge/arXiv-2501.06828-b31b1b.svg'></a>
 <a href='https://huggingface.co/Norman-ou/GeoPix-ft-sior_rsicap'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-models-blue'></a>
 [![ModelScope](https://img.shields.io/badge/ModelScope-models-blue)](https://www.modelscope.com/models/NormanOU/GeoPix-ft-sior_rsicap)
 [![Open in OpenXLab](https://cdn-static.openxlab.org.cn/header/openxlab_models.svg)](https://openxlab.org.cn/models/detail/NormanOU/GeoPix-ft-sior_rsicap)
