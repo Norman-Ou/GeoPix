@@ -76,6 +76,12 @@ Run the following command:
 python app.py
 ```
 
+Thee instruction is well written. Enjoy our work.
+
+
+<img width="1002" alt="image" src="https://github.com/user-attachments/assets/59a62b74-3819-4963-bade-d5e68c5053bf" />
+
+
 # Inference🔍
 Run the following command:
 
