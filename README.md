@@ -17,8 +17,6 @@ GeoPix is a new state-of-the-art pixel-level multi-modal large language model in
 <img src="./assets/multitask.jpg"/>
 
 # Releas🔥
-
-- [ ] Release Training Code
     
 - [2025.04.11] We release the annotations of GeoPixInstruct. [HuggingFace🤗](https://huggingface.co/datasets/Norman-ou/GeoPixInstruct-Anno)
 - [2025.04.10] GeoPix has been accepted by GRSM (IEEE Geoscience and Remote Sensing Magazine).
