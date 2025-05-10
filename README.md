@@ -91,14 +91,16 @@ python inference.py
 # Citation📑
 
 ```
-@misc{ou2025geopixmultimodallargelanguage,
-      title={GeoPix: Multi-Modal Large Language Model for Pixel-level Image Understanding in Remote Sensing}, 
-      author={Ruizhe Ou and Yuan Hu and Fan Zhang and Jiaxin Chen and Yu Liu},
-      year={2025},
-      eprint={2501.06828},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2501.06828}, 
+@ARTICLE{10994415,
+  author={Ou, Ruizhe and Hu, Yuan and Zhang, Fan and Chen, Jiaxin and Liu, Yu},
+  journal={IEEE Geoscience and Remote Sensing Magazine}, 
+  title={GeoPix: A multimodal large language model for pixel-level image understanding in remote sensing}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={2-16},
+  keywords={Visualization;Image segmentation;Training;Integrated circuit modeling;Grounding;Feature extraction;Accuracy;Remote sensing;Prototypes;Predictive models},
+  doi={10.1109/MGRS.2025.3560293}
 }
 ```
 
